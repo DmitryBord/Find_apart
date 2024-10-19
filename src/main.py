@@ -48,5 +48,6 @@ def main() -> None:
     df = pd.DataFrame.from_dict(data, orient='index')
     df.to_excel("apartments.xlsx")
 
+
 if __name__ == '__main__':
     main()
