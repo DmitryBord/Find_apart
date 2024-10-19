@@ -3,7 +3,7 @@ from requests import get
 import time
 import random
 from typing import List
-from src.input import user_input
+from src.src.input import user_input
 import pandas as pd
 
 
